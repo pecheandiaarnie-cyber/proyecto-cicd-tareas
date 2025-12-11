@@ -8,7 +8,7 @@ contador_id = 1
 
 @app.route('/')
 def home():
-    return jsonify({"mensaje": "¡Bienvenido a la API de Tareas!"})
+    return jsonify({"mensaje": "¡Bienvenido a    API de Tareas!"})
 
 @app.route('/tareas', methods=['GET'])
 def obtener_tareas():
