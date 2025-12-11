@@ -1,0 +1,12 @@
+# Archivos compilados por Python
+__pycache__/
+*.pyc
+
+# Archivos temporales
+*.log
+
+# Archivo creado por error
+8.3.3
+
+# Entorno virtual
+venv/

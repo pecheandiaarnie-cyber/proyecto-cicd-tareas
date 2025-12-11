@@ -41,6 +41,7 @@ def eliminar_tarea(tarea_id):
     tareas = [t for t in tareas if t['id'] != tarea_id]
     return jsonify({"mensaje": "Tarea eliminada"}), 200
 
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
 
